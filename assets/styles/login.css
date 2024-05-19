@@ -1,0 +1,131 @@
+
+form .box {
+    width: 100%;
+    padding: 1rem;
+    margin: .7rem 0;
+    background: #fff;
+    border: var(--border);
+    background-origin: var(--black);
+    border-radius: var(--radius);
+}
+
+form .box:focus {
+    background: var(--bg);
+
+}
+
+form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+
+footer {
+    background: var(--bg);
+    color: var(--black);
+    text-align: center;
+    padding: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+
+.bg {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.login-container{
+    overflow: hidden;
+    padding: 0;
+    width: 60rem;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 1rem;
+    background: #bbb;
+    scale: 80%;
+    
+}
+
+.cont1 {
+    background: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont1-img {
+    width: 20rem;
+}
+
+.cont1 h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.cont1 input {  
+    width: 100%;
+    background-color: #eee;
+    border-radius: 1rem;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.cont1 button {
+    width: 60%;
+    background-color: #4fc879;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.cont1 button:hover {
+    cursor: pointer;
+}
+
+.cont2 {  
+    background-image: linear-gradient(to right, #046306 , #4fc879);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2 h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cont2 p {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 6rem 0;
+}
+
+.cont2 a {
+    background: none;
+    color: #fff;
+    padding: 1rem 3rem; 
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+ 
+    font-weight: bold;
+}

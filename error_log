@@ -1,0 +1,22 @@
+[17-May-2024 10:07:50 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:07:50 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:08:13 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:08:13 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:49 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:49 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:51 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:51 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:52 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:52 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:53 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:53 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:54 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:10:54 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:11:04 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 29
+[17-May-2024 10:11:04 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 29
+[17-May-2024 10:11:08 Europe/Riga] PHP Warning:  require(connect_db.php): failed to open stream: No such file or directory in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:11:08 Europe/Riga] PHP Fatal error:  require(): Failed opening required 'connect_db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 28
+[17-May-2024 10:12:22 Europe/Riga] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/grobina1/public_html/3pt1/truksans/WEB/jaunumi.php on line 31

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*______________________________________________________________________________HEADER_____________________________________________________________________________________________*/
+
+header {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: 20% auto;
+    border-bottom: 4px solid green;
+    z-index: 5;
+}
+
+header img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: #007757;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav a {
+    padding: .5rem 2rem;
+}
+
+header nav a:hover {
+    border-bottom: 4px solid #007757;
+    padding: 4px 2rem;
+    color: green;
+}
+
+header nav h1{
+    text-align: left;
+}
+
+/*________________________________________________________________________________SECTION: SAKUMLAPA___________________________________________________________________________________________*/
+
+.SakumlapasIevads{
+    border-top: 1rem solid #007757;
+    border-bottom: 1rem solid #007757;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.SakumlapasIevads img{
+    object-fit: cover;
+    height: auto;
+    max-width: 80rem;
+    position: relative;
+    transition: background-color 0.5s ease-in-out;
+    z-index: 1;
+}
+
+/*_____________________________Bildes Animacija___________________________________*/
+
+.BildesContainer {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.BildesContainer img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.BildesContainer::before {
+    content: "";
+    position: absolute;
+    max-width: 80rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease-in-out;
+    z-index: 2;
+}
+
+.BildesContainer:hover::before {
+    background-color: rgba(68, 68, 68, 0.5);
+}
+
+.hover-button {
+    position: absolute;
+    bottom: -65px;
+    left: 55%;
+    transform: translateX(-50%);
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    scale: 150%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.BildesContainer:hover .hover-button {
+    bottom: 50%;
+}
+
+/*________________________________________________________________________________*/
+
+.SakumlapasIevads #informacija{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(224, 255, 230));
+    width: auto;
+    height: auto;
+}
+
+.SakumlapasIevads #informacija #teksts{
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+
+.SakumlapasIevads #teksts h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.SakumlapasIevads #teksts p{
+    font-size: 23px;
+    width: 85%;
+    position: relative;
+    left: 3rem;
+    text-align: left;
+
+}
+
+/*________________________________________________________________________________SECTION: JAUNUMI___________________________________________________________________________________________*/
+
+#jaunumi h1{
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #007757;
+}
+
+#jaunumi h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#jaunumi .cloud{
+    width: 100%;
+    scale: 150%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/cloud.png);
+    background-repeat: repeat-x;
+    background-size: 250rem 40rem;
+    height: 35rem;
+    animation: cloud 10s linear infinite;
+}
+
+@keyframes cloud{
+    0%{
+        background-position-x: 0rem;
+    }
+
+    100%{
+        background-position-x: -250rem;
+    }
+}
+
+.carousel {
+    position: relative;
+    left: 15%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 80rem;
+    overflow: hidden;
+    border: 2px solid #007757;
+    background-color: #007757;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 60rem;
+    width: 60rem;
+}
+
+.carousel-image {
+    border: 5px solid #c0c0c0;
+    z-index: 1;
+    width: 100%;
+    height: auto; 
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 60rem;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-image.hidden {
+    opacity: 0; /* Hide the image with opacity */
+}
+
+.carousel-text {
+    z-index: 2;
+    margin-top: 5rem;
+    color: #000;
+    padding: 15px;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
