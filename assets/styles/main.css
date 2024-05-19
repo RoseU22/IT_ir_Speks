@@ -13,6 +13,12 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-image: url('../images/main_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /*______________________________________________________________________________HEADER_____________________________________________________________________________________________*/
 
 header {

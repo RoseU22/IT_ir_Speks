@@ -3,9 +3,10 @@
   }
 
 body {
-    overflow: auto; /* Hide body overflow */
     background-image: url('../images/main_background.png');
     background-size:cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
-    height: 100%; 
 }
