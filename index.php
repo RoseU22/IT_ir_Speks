@@ -8,6 +8,7 @@
 
     <!-- <link rel="stylesheet" href='assets/styles/background.css'> -->
     <link rel="stylesheet" href='assets/styles/main.css'>
+    <link rel="stylesheet" href='assets/styles/footer.css'>
 
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
@@ -24,8 +25,8 @@
         <nav>
             <a href="#">Sākums</a>
             <a href="#jaunumi">Jaunumi</a>
-            <a href="">Vakances</a>
-            <a href="">Par mums</a>
+            <a href="#vakances">Vakances</a>
+            <a href="#parmums">Par mums</a>
             <a href="login.php">Autorizācija darbiniekiem</a>
         </nav>
 
@@ -39,7 +40,7 @@
 
             <!--Salabot pogu lai būtu responsīva-->
 
-            <button onclick="location.href='#jaunumi'" type="button" class="hover-button">Pieejamās vakances!</button>
+            <button onclick="location.href='#vakances'" type="button" class="hover-button">Pieejamās vakances!</button>
 
         </div>
 
@@ -82,6 +83,65 @@
         <script src="assets/scripts/jaunumisadala.js"></script>
     
     </section>
+
+    <section id="vakances">
+
+        <h1>Pieejamās <span>vakances!</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aperiam ipsa nihil. Excepturi ab omnis sed veritatis soluta minus iste. Quidem quas officiis doloribus, pariatur expedita reiciendis distinctio nulla ullam!</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quam accusamus provident aperiam ipsam voluptatum est culpa, quasi officia sunt molestiae quibusdam temporibus asperiores reprehenderit sapiente fugiat amet a quos!</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae repellat voluptas numquam eveniet culpa harum commodi ipsam pariatur incidunt cum aspernatur, fuga dolorum aliquam praesentium reprehenderit. Temporibus incidunt error ratione?</p>
+
+            </div>
+
+        </div>
+
+        <button>Parādīt vēl</button>    
+
+    </section>
+
+    <section id="parmums">
+
+        <h1>IT ir <span>Spēks!</span></h1>
+
+    </section>
+
+    <footer>
+
+        <div class="loop-wrapper">
+            <div class="mountain"></div>
+            <div class="hill"></div>
+            <div class="tree"></div>
+            <div class="tree"></div>
+            <div class="tree"></div>
+            <div class="rock"></div>
+            <div class="truck"></div>
+            <div class="wheels"></div>
+        </div> 
+        
+        <p>IT ir Spēks © 2024</p>
+    
+    </footer>
     
 </body>
 </html>

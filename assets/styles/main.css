@@ -142,6 +142,11 @@ header nav h1{
     transition: bottom 0.5s ease-in-out;
 }
 
+.hover-button:hover{
+    background-color: #007757;
+    color: #fff;
+}
+
 .BildesContainer:hover .hover-button {
     bottom: 50%;
 }
@@ -216,10 +221,12 @@ header nav h1{
 }
 
 .carousel {
+    border-radius: 1rem;
+    scale: 85%;
     position: relative;
     left: 15%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     width: 80rem;
     overflow: hidden;
     border: 2px solid #007757;
@@ -239,6 +246,7 @@ header nav h1{
 
 .carousel-image {
     border: 5px solid #c0c0c0;
+    border-radius: 1rem;
     z-index: 1;
     width: 100%;
     height: auto; 
@@ -282,4 +290,101 @@ header nav h1{
 
 .arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*________________________________________________________________________________SECTION: VAKANCES___________________________________________________________________________________________*/
+
+#vakances{
+    padding: 2rem 9%;
+}
+
+#vakances h1{
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#vakances h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#vakances .box-container {
+    border-radius: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+#vakances .box {
+    scale: 90%;
+    text-align: center;
+    border: 5px solid #007757;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+#vakances .box img {
+    width: 100%;
+    height: auto;
+}
+
+#vakances .box h3 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#vakances .box p {
+    color: #777;
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+#vakances button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#vakances button:hover {
+    background-color: #007757;
+    color: #fff;
+}
+
+/*________________________________________________________________________________SECTION: PAR MUMS___________________________________________________________________________________________*/
+
+#parmums{
+    margin-top: 5rem;
+}
+
+#parmums h1{
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#parmums h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
 }
