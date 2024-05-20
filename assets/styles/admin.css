@@ -1,0 +1,61 @@
+.jauni-pieteikumi {
+    margin-top: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.jauni-pieteikumi div {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background:#eee;
+    border-radius: .5rem;
+    width: 60%;
+    font-weight: bold;
+}
+.jauni-pieteikumi div span {
+    padding: 10px;
+    background-color: rgb(193, 193, 253);
+    color: rgb(45, 45, 255);
+    border-radius: .5rem;
+}
+
+.pieteikumu-tabula {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.pieteikumu-tabula table {
+    width: 100%;
+  
+    background-color: #fff;
+    border-radius: 2px;
+}
+ table tr {
+    border: #fff solid 2px;
+}
+ table th, td {
+    color: #fff;
+    border: #fff solid 1px;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(11, 123, 95);
+    padding: .5rem;
+}
+table .btn{
+    padding: 5px;
+    background-color: #eee;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 80%;
+    font-weight: bold;
+} 
+
+.btn:hover {
+    cursor: pointer;
+}

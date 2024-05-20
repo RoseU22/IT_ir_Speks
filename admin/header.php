@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='../assets/styles/background.css'>
     <link rel="stylesheet" href='../assets/styles/main.css'>
+    <link rel="stylesheet" href='../assets/styles/admin.css'>
+
     <title>IT ir Spēks</title>
 </head>
 
 <body>
      <header>
-        <a href=""><img src="" alt="logo"></a>
+        <a href="" class='logo'>IT ir spēks</a>
         <nav>
-            <a href="">Sākums</a>
-            <a href="">Jaunumi</a>
-            <a href="">Vakances</a>
-            <a href="">Par mums</a>
-            <a href="">Izrakstīties
+            <a href="index.php">Pieteikumi</a>
+            <a href="pievienosana.php">Jaunumu & vakanšu</a>
+            <a href="">Darbinieku pārvaldīšana</a>
+            <a href="../">Izrakstīties
             </a>
         </nav>
     </header>
