@@ -10,11 +10,10 @@
 
 <body>
      <header>
-        <a href=""><img src="" alt="logo"></a>
+        <a href="" class='logo'>IT ir spēks</a>
         <nav>
             <a href="">Sākums</a>
-            <a href="">Jaunumi</a>
-            <a href="">Vakances</a>
+            <a href="">Jaunumu un vakanšu pievienošana</a>
             <a href="">Par mums</a>
             <a href="">Izrakstīties
             </a>
