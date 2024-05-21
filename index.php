@@ -126,7 +126,6 @@
 
     </section>
 
-<<<<<<< HEAD
     <footer>
 
         <div class="loop-wrapper">
@@ -143,9 +142,6 @@
         <p>IT ir Spēks © 2024</p>
     
     </footer>
-=======
-    <footer>IT ir Spēks © 2024</footer>
->>>>>>> 7bbc7ca52db8ad2fce65165b3fb69b4fb31ccff7
     
 </body>
 </html>
