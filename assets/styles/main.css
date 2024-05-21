@@ -142,6 +142,11 @@ header nav h1{
     transition: bottom 0.5s ease-in-out;
 }
 
+.hover-button:hover{
+    background-color: #007757;
+    color: #fff;
+}
+
 .BildesContainer:hover .hover-button {
     bottom: 50%;
 }
@@ -216,10 +221,12 @@ header nav h1{
 }
 
 .carousel {
+    border-radius: 1rem;
+    scale: 85%;
     position: relative;
-    left: 15%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    left: 17%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     width: 80rem;
     overflow: hidden;
     border: 2px solid #007757;
@@ -239,6 +246,7 @@ header nav h1{
 
 .carousel-image {
     border: 5px solid #c0c0c0;
+    border-radius: 1rem;
     z-index: 1;
     width: 100%;
     height: auto; 
@@ -282,4 +290,193 @@ header nav h1{
 
 .arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*________________________________________________________________________________SECTION: VAKANCES___________________________________________________________________________________________*/
+
+#vakances{
+    padding: 2rem 9%;
+}
+
+#vakances h1{
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#vakances h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#vakances .box-container {
+    border-radius: 1rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+#vakances .box {
+    scale: 80%;
+    text-align: center;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+#vakances .box img {
+    width: 100%;
+    height: auto;
+}
+
+#vakances .box h3 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#vakances .box p {
+    color: #777;
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+#vakances .kreep button {
+    width: 24rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+#vakances .kreep button:hover {
+    background-color: #007757;
+    color: #fff;
+    box-shadow: none;
+}
+
+/*Bounce*/
+@keyframes kreep {
+    0% {-webkit-transform: scale(1.1,.9);
+        transform: scale(1.1,.9);}
+   50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+   70% { -webkit-transform: scale(1);
+         transform: scale(1);}
+}
+
+div.kreep {
+  display: inline-block;
+  position: relative;
+  left: 37.5%;
+  animation: kreep 2s ease 2s infinite alternate;
+}
+
+
+
+/*________________________________________________________________________________SECTION: PAR MUMS___________________________________________________________________________________________*/
+
+#parmums{
+    margin-top: 5rem;
+}
+
+#parmums h1{
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#parmums h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#parmums .informacija{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#parmums .informacija p{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    width: 50%;
+    text-align: center;
+    color: #007757;
+}
+
+#parmums img{
+    display: block;
+    margin: 3rem auto 0 auto;
+    border-top-left-radius: 23rem;
+    border-bottom-right-radius: 23rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#parmums .kontakti .box-container{
+    scale: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+#parmums .kontakti .icon {
+    background: linear-gradient(-45deg, #99FF99, #3CB371, #25a885, #007757);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    padding: 2.5rem;
+    text-align: center;
+    border: 0.1rem solid rgba(0,0,0,0.1);;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#parmums .kontakti .icon i {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: #007757;
+    border-radius: 50%;
+    line-height: 6rem;
+}
+
+#parmums .kontakti .icon h3 {
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+#parmums .kontakti .icon p {
+    font-size: 1.5rem;
+    color: #fff;
 }
