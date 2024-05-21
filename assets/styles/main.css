@@ -224,7 +224,11 @@ header nav h1{
     border-radius: 1rem;
     scale: 85%;
     position: relative;
+<<<<<<< HEAD
     left: 17%;
+=======
+    left: 15%;
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 80rem;
@@ -316,6 +320,7 @@ header nav h1{
 
 #vakances .box-container {
     border-radius: 1rem;
+<<<<<<< HEAD
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -325,6 +330,19 @@ header nav h1{
     scale: 80%;
     text-align: center;
     box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+=======
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+#vakances .box {
+    scale: 90%;
+    text-align: center;
+    border: 5px solid #007757;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
     border-radius: 0.5rem;
     padding: 4rem 2rem;
     background-color: #fff;
@@ -347,13 +365,22 @@ header nav h1{
     line-height: 2;
 }
 
+<<<<<<< HEAD
 #vakances .kreep button {
     width: 24rem;
+=======
+#vakances button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px;
+<<<<<<< HEAD
     border: none;
     box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.1);
     cursor: pointer;
@@ -383,6 +410,16 @@ div.kreep {
 
 
 
+=======
+    cursor: pointer;
+}
+
+#vakances button:hover {
+    background-color: #007757;
+    color: #fff;
+}
+
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
 /*________________________________________________________________________________SECTION: PAR MUMS___________________________________________________________________________________________*/
 
 #parmums{
@@ -403,6 +440,7 @@ div.kreep {
     border-radius: 5px;
     background: #007757;
     padding: 0.5rem 1.5rem;
+<<<<<<< HEAD
 }
 
 #parmums .informacija{
@@ -479,4 +517,6 @@ div.kreep {
 #parmums .kontakti .icon p {
     font-size: 1.5rem;
     color: #fff;
+=======
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
 }

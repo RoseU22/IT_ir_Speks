@@ -117,14 +117,19 @@
 
         </div>
 
+<<<<<<< HEAD
         <div class="kreep">
             <button onclick="location.href='vakances.php'">Parādīt vēl!</button>
         </div>   
+=======
+        <button>Parādīt vēl</button>    
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
 
     </section>
 
     <section id="parmums">
 
+<<<<<<< HEAD
         <div class="informacija">
 
             <h1>Par <span>Mums!</span></h1>
@@ -174,6 +179,9 @@
             </div>
 
         </div>
+=======
+        <h1>IT ir <span>Spēks!</span></h1>
+>>>>>>> 72edb4cb8b9ff9b670f064b8e419c3b41fbc64ec
 
     </section>
 
