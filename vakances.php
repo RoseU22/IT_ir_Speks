@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vakances</title>
 
     <link rel="stylesheet" href='assets/styles/main.css'>
@@ -23,7 +23,7 @@
 
     <header>
 
-        <a href="#" class="logo">IT ir Spēks</a>
+        <a href="index.php#" class="logo">IT ir Spēks</a>
 
         <nav>
             <a href="index.php#">Sākums</a>
@@ -32,7 +32,9 @@
             <a href="index.php#parmums">Par mums</a>
             <a href="login.php">Autorizācija darbiniekiem</a>
 
-            <div class="meklet">
+        </nav>
+
+        <div class="meklet">
 
                 <form action="#">
                     
@@ -41,9 +43,11 @@
 
                 </form>
 
-            </div>
+        </div>
 
-        </nav>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <script src="assets/scripts/menu-bar.js"></script>
 
     </header>
 
@@ -56,36 +60,61 @@
                 <tr>
 
                     <td><img src="assets/images/pavars.jpg" alt=""></td>
-                    <td><h1>Pavārs</h1><p>Darba pienākums ir ēdienu gatavošana atbilstoši ēdienkartei, kā arī pozitīva attieksme pret veicamo darbu un ievērot sanitārās un higiēnas normas.</p><button>Pieteikties</button></td>
+
+                    <div class="Kastesinformacija">
+
+                        <td><h1>Pavārs</h1><p>Darba pienākums ir ēdienu gatavošana atbilstoši ēdienkartei, kā arī pozitīva attieksme pret veicamo darbu un ievērot sanitārās un higiēnas normas.</p><button>Pieteikties</button></td>    
+                    
+                    </div>
 
                 </tr>
 
                 <tr>
 
                     <td><img src="assets/images/barmenis.jpg" alt=""></td>
-                    <td><h1>Bārmenis</h1><p>Darbs bārā restorānos Rīgā. Darba pienākumi ir viesmīlīga un profesionāla viesu apkalpošana un bāra produkcijas profesionāla pagatavošana pēc noteiktajām kalkulācijām, ievērojot sanitārās un higiēnas normas.</p><button>Pieteikties</button></td>
+
+                    <div class="Kastesinformacija">
+
+                        <td><h1>Bārmenis</h1><p>Darbs bārā restorānos Rīgā. Darba pienākumi ir viesmīlīga un profesionāla viesu apkalpošana un bāra produkcijas profesionāla pagatavošana pēc noteiktajām kalkulācijām, ievērojot sanitārās un higiēnas normas.</p><button>Pieteikties</button></td>
+
+                    </div>
 
                 </tr>
 
                 <tr>
 
                     <td><img src="assets/images/ekonomists.jpg" alt=""></td>
+
+                    <div class="Kastesinformacija">
+
                     <td><h1>Ekonomists</h1><p>Darba pienākumi ir apkopot pašvaldības institūciju iesniegtos budžeta pieprasījumus, veikt to pārbaudi un analīzi, Nodrošināt pašvaldības institūciju apstiprinātās tāmes izpildes kontroli ekonomiskās klasifikācijas un funkcionālo kategoriju klasifikācijas kodu griezumā,Analizēt budžeta rādītājus, kā arī līdzekļu izlietojumu atbilstoši piešķirtajam asignējumiem un apstiprinātajām budžeta tāmēm pa funkcionālajām kategorijām un ekonomiskās klasifikācijas kodiem u.c.</p><button>Pieteikties</button></td>
+
+                    </div>
 
                 </tr>
 
                 <tr>
 
                     <td><img src="assets/images/gramatvedis.png" alt=""></td>
+
+                    <div class="Kastesinformacija">
+
                     <td><h1>Grāmatvedis</h1><p>Darba pienākumi ir izstrādāt un ieviest finanšu vadības un grāmatvedības politiku, Optimizēt grāmatvedības procesus un pilnveidot grāmatvedības sistēmu, Organizēt pilna cikla grāmatvedības uzskaites procesu atbilstoši Latvijas Republikas likumdošanas un normatīvo aktu prasībām, Nodrošināt naudas līdzekļu, materiālo vērtību un pamatlīdzekļu uzskaiti, Sagatavot finanšu un nodokļu atskaites vadībai un valsts institūcijām un sagatavot gada pārskatus.</p><button>Pieteikties</button></td>
+
+                    </div>
 
                 </tr>
 
                 <tr>
 
                     <td><img src="assets/images/sistemanalitikis.jpg" alt=""></td>
+
+                    <div class="Kastesinformacija">
+
                     <td><h1>Sistēmanalītiķis</h1><p>Darba pienākumi ir pētīt, analizēt un izvērtēt tiesībsargājošo iestāžu darba procesus, izstrādāt prasības IT risinājumiem kriminātiesiskajā jomā, piedalīties šo risinājuma izpētē, attīstīšanā un ieviešanā un organizēt un nodrošināt neformālās izglītības pasākumu īstenošanu tiesībaizsardzības iestāžu amatpersonām IT jomā.</p><button>Pieteikties</button></td>
 
+                    </div>
+                    
                 </tr>
 
             </tbody>
