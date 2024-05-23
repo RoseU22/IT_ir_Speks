@@ -97,28 +97,46 @@
 
             <div class="box">
 
+<<<<<<< HEAD
                 <img src="assets/images/sanitars.jpg" alt="">
                 <h3>Sanitārs</h3>
                 <p>Galvenie darba pienākumi ir veikt telpu un ierīču uzkopšanu, apstrādi un dezinfekciju, veikt struktūrvienības telpu ģenerālo tīrīšanu u.c. </p>
                 <button>Pieteikties</button>
+=======
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aperiam ipsa nihil. Excepturi ab omnis sed veritatis soluta minus iste. Quidem quas officiis doloribus, pariatur expedita reiciendis distinctio nulla ullam!</p>
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 
             </div>
 
             <div class="box">
 
+<<<<<<< HEAD
                 <img src="assets/images/Apkopejs.jpg" alt="">
                 <h3>Apkopējs</h3>
                 <p>Galvenie darba pienākumi ir regulāri uzkopt iestādes vai dzīvojamās ēkas telpas, koridorus, kāpnes, telpu koplietošanas priekšmetus tīrīt logus un palodzes, mēbeles, grīdas, sienas, durvis, labierīcības priekšmetus u.tml.</p>
                 <button>Pieteikties</button>
+=======
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quam accusamus provident aperiam ipsam voluptatum est culpa, quasi officia sunt molestiae quibusdam temporibus asperiores reprehenderit sapiente fugiat amet a quos!</p>
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 
             </div>
 
             <div class="box">
 
+<<<<<<< HEAD
                 <img src="assets/images/atsledznieks.jpg" alt="">
                 <h3>Atslēdznieks</h3>
                 <p>Pienākumi - Pārraudzīt uzņēmuma ražošanas iekārtas - remontēšana, apkopšana. Prasības - Augsta atbildības sajūta; spēja patstāvīgi organizēt savu darbu, saprast dotos uzdevumus.</p>
                 <button>Pieteikties</button>
+=======
+                <img src="assets/images/placeholder.jpeg" alt="">
+                <h3>Vakance 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae repellat voluptas numquam eveniet culpa harum commodi ipsam pariatur incidunt cum aspernatur, fuga dolorum aliquam praesentium reprehenderit. Temporibus incidunt error ratione?</p>
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 
             </div>
 
@@ -137,7 +155,11 @@
 
             <h1>Par <span>Mums!</span></h1>
 
+<<<<<<< HEAD
             <p>Mēs sniedzam jaunas iespējas katram cilvēkam, piedāvājot vakances, kuras ir atrodamas Latvijā. Mūsu mērķis ir palīdzēt cilvēkiem atrast vakances, kuras tiek piedāvātas šeit ērtai meklēšanai un atrašanai.</p>
+=======
+            <p>Mēs sniedzam jaunas iespējas katram cilvēkam, piedāvājot vakances, kuras ir atrodamas apkārt visai Latvijai. Mūsu mērķis ir palīdzēt cilvēkiem atrast brīvas vakances, kuras tiek piedāvātas šeit priekš ērtas meklēšanas un atrašanas.</p>
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 
         </div>
 

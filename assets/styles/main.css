@@ -33,7 +33,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 9%;
+<<<<<<< HEAD
     box-shadow: 10px 0 5px gray;
+=======
+    border-bottom: 4px solid green;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 header img{
@@ -202,7 +206,10 @@ header nav h1{
 #jaunumi{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     transform-origin: top center;
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 #jaunumi h1{
@@ -319,12 +326,21 @@ header nav h1{
 /*________________________________________________________________________________SECTION: VAKANCES___________________________________________________________________________________________*/
 
 #vakances{
+<<<<<<< HEAD
     padding: 0 9%;
     transform-origin: top center;
+=======
+    padding: 2rem 9%;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 #vakances h1{
     text-align: center;
+<<<<<<< HEAD
+=======
+    margin-top: 2rem;
+    padding-top: 5rem;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     font-size: 4rem;
     color: #007757;
     margin: 0;
@@ -353,11 +369,18 @@ header nav h1{
 #vakances .box {
     scale: 90%;
     text-align: center;
+<<<<<<< HEAD
+=======
+    border: 5px solid #007757;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
     border-radius: 0.5rem;
     padding: 4rem 2rem;
     background-color: #fff;
+<<<<<<< HEAD
     transform-origin: top center;
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 #vakances .box h3 {
@@ -423,23 +446,34 @@ div.kreep {
 /*________________________________________________________________________________SECTION: PAR MUMS___________________________________________________________________________________________*/
 
 #parmums{
+<<<<<<< HEAD
     margin-top: 2rem;
     transform-origin: top center;
+=======
+    margin-top: 5rem;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 #parmums h1{
     text-align: center;
     margin-top: 2rem;
+<<<<<<< HEAD
     padding-top: 3rem;
+=======
+    padding-top: 5rem;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     font-size: 4rem;
     color: #007757;
     margin: 0;
 }
 
+<<<<<<< HEAD
 #parmums .kontakti h1{
     padding-top: 3rem;
 }
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 #parmums h1 span{
     color: #fff;
     border-radius: 5px;
@@ -474,10 +508,13 @@ div.kreep {
     border-bottom-left-radius: 1rem;
 }
 
+<<<<<<< HEAD
 #parmums .kontakti{
     transform-origin: top center;
 }
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 #parmums .kontakti .box-container{
     scale: 70%;
     display: grid;
@@ -496,7 +533,10 @@ div.kreep {
     box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -711,8 +751,14 @@ div.kreep {
 
 @media (max-width: 1010px) {
     #vakances .box-container .box{
+<<<<<<< HEAD
         width: 100%;
         height: 50rem;
+=======
+        scale: 70%;
+        width: 100%;
+        height: 60rem;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
         margin-bottom: 0;
     }
 
@@ -741,10 +787,13 @@ div.kreep {
         scale: 80%;
     }
 
+<<<<<<< HEAD
     #parmums{
         height: 120rem;
     }
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 @media (max-width: 780px) {
@@ -788,7 +837,11 @@ div.kreep {
     }
 
     #jaunumi h1 span, #vakances h1 span {
+<<<<<<< HEAD
         margin-top: 0.5rem;
+=======
+        margin-top: 0.5rem; /* Add some space between lines */
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     }
 }
 
@@ -798,6 +851,18 @@ div.kreep {
     }
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 650px){
+
+    #parmums .kontakti{
+        scale: 65%;
+        width: auto;
+    }
+
+}
+
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 @media (max-width: 630px) {
     .kontakti h1{
         scale: 90%;
@@ -825,6 +890,7 @@ div.kreep {
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 534px){
 
     #parmums{
@@ -832,6 +898,8 @@ div.kreep {
     }
 }
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 @media (max-width: 530px){
 
     #parmums h1{
@@ -851,14 +919,18 @@ div.kreep {
         scale: 90%;
         width:70%;
     }
+<<<<<<< HEAD
 
     #parmums{
         height: 122rem;
     }
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 @media (max-width: 500px) {
     #vakances .box-container {
+<<<<<<< HEAD
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         grid-gap: 1rem;
         margin-top: 0.1rem;
@@ -868,6 +940,12 @@ div.kreep {
         height: 45rem;
     }
 
+=======
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        margin-top: 0.1rem;
+    }
+
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     #vakances{
         display: flex;
         justify-content: center;
@@ -876,13 +954,24 @@ div.kreep {
 
     #vakances .kreep{
         scale: 80%;
+<<<<<<< HEAD
         position: relative;
         bottom: 10%;
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     }
 }
 
 @media (max-width: 450px){
 
+<<<<<<< HEAD
+=======
+    #parmums .kontakti .box-container{
+        scale: 65%;
+        width: 100%;
+    }
+
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
     footer{
         margin-top: none;
     }
@@ -897,6 +986,7 @@ div.kreep {
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 426px){
 
     #vakances .box{
@@ -922,11 +1012,14 @@ div.kreep {
     }
 }
 
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 @media (max-width: 400px) {
 
     #jaunumi h1{
         scale: 65%;
     }
+<<<<<<< HEAD
 }
 
 @media (max-width: 355px){
@@ -934,4 +1027,6 @@ div.kreep {
     #parmums{
         height: 130rem;
     }
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }

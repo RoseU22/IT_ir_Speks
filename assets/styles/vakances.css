@@ -13,7 +13,11 @@
     float: right;
     margin: 7px;
     display: flex;
+<<<<<<< HEAD
     justify-content: flex-end;
+=======
+    justify-content: flex-end; /* Align to the right side */
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 .meklet button {
@@ -33,18 +37,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     flex-direction: column;
+=======
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 .vakancesKaste{
     border-collapse:separate;
     border-spacing: 0 3rem;
     width: 85%;
+<<<<<<< HEAD
     height: 147rem;
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
     position: relative;
+=======
+    display: flex;
+    flex-direction: row;
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
 }
 
 .vakancesKaste img{
@@ -192,6 +204,7 @@
 
 @media (max-width: 1620px) {
 
+<<<<<<< HEAD
     .vakancesKaste h1{
         font-size: 2rem;
     }
@@ -435,3 +448,20 @@
         font-size: 0.8rem;
     }
 }
+=======
+    .vakancesKaste{
+        scale: 80%;
+        margin-top: 0.1rem;
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+}
+
+@media (max-width: 990px) {
+
+    .vakancesKaste{
+        scale: 60%;
+        margin-top: 0.1rem;
+    }
+}
+>>>>>>> 0c48e6a4212e8c1c4fce5e0aaf62734a0553e8fc
