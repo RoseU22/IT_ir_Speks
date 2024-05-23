@@ -37,13 +37,20 @@
  table tr {
     border: #fff solid 2px;
 }
+
+
  table th, td {
     color: #fff;
     border: #fff solid 1px;
     text-align: center;
     margin: 0;
     background-color: rgb(11, 123, 95);
-    padding: .5rem;
+    padding: .5rem 0;
+  
+}
+td.fitwidth {
+  width: 1px;
+  white-space: nowrap;
 }
 table .btn{
     padding: 5px;
@@ -59,3 +66,170 @@ table .btn{
 .btn:hover {
     cursor: pointer;
 }
+
+h1 {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.pievienosana {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.pievienosana .btn {
+    padding: 1rem 6rem;
+    outline: black;
+    border: 2px solid black;
+    background-color: rgb(11, 123, 95);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+.tables {
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-selection {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.table-selection button {
+    border: white solid 2px;
+    color: #000;
+    background: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+}
+
+.table-selection .selected {
+    border: green solid 2px;
+    color: #fff;
+    background: rgb(11, 123, 95);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+}
+.tables table {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+
+
+.textup { 
+    text-align: center; 
+    color: rgb(11, 118, 11); 
+    font-weight: 700; 
+} 
+  
+i { 
+    margin-right: 3px; 
+} 
+  
+.form-box { 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 500px; 
+    margin: 2rem auto;
+} 
+  
+form { 
+    max-width: 400px; 
+    margin: 0 auto; 
+} 
+  
+.radio-group { 
+    display: flex; 
+    margin-bottom: 16px; 
+} 
+  
+input[type="radio"] { 
+    margin-right: 8px; 
+} 
+  
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 17px; 
+    color: green; 
+    font-weight: 600; 
+} 
+  
+input, 
+textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 12px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+  
+} 
+  
+form button { 
+    background-color: #368b44; 
+    color: #fff; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 15px; 
+    transition: .2s linear; 
+} 
+  
+form button:hover { 
+    background-color: #0a6808; 
+    border: none; 
+    transform: translateY(-10px); 
+} 
+  
+h1 { 
+    
+    padding-top: 10rem; 
+}
+
+
+
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 80%;
+    }
+  }
+  @media (max-width: 824px) {
+    html {
+      font-size: 65%;
+      
+    }
+    .tables {
+      width: 100%;
+    }
+    .form-box {
+      width: 90%;
+    }
+    .pieteikumu-tabula {
+      width: 90%;
+    }
+  }

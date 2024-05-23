@@ -1,0 +1,437 @@
+
+
+.meklet input[type=text] {
+    width: 300px;
+    height: 25px;
+    text-indent: 1rem;
+    border-radius: 25px;
+    border: 1px solid #000  ;
+}
+
+
+.meklet {
+    float: right;
+    margin: 7px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meklet button {
+    background: none;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.visasvakances{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vakancesKaste{
+    border-collapse:separate;
+    border-spacing: 0 3rem;
+    width: 85%;
+    height: 147rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.vakancesKaste img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 4rem;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.vakancesKaste h1{
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    font-size: 3rem;
+}
+
+.vakancesKaste p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.vakancesKaste td{
+    height: 25rem;
+}
+
+.vakancesKaste tr{
+    background: #fff;
+    box-shadow: 
+    inset 0px 11px 8px -10px #007757,
+    inset 0px -11px 8px -10px #007757;
+}
+
+.vakancesKaste tr:hover{
+    color: #fff;
+    background: #00b887;
+}
+
+.vakancesKaste tr:hover h1{
+    color: #fff;
+}
+
+.vakancesKaste tr:hover p{
+    color: #fff;
+}
+
+.vakancesKaste button{
+    width: 24rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    position: relative;
+    top: 2rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.vakancesKaste button:hover{
+    background-color: #007757;
+    color: #fff;
+    box-shadow: none;
+}
+
+.vakancesKaste .Kastesinformacija{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 1536px) {
+    #menu-bar {
+        display: block;
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    nav {
+        position: absolute;
+        top: 115%;
+        right: 2rem;
+        background: #fff;
+        box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+        border: 1px solid #000;
+        border-radius: 1rem;
+        width: 18rem;
+        transform: scale(0);
+        transform-origin: top right;
+        z-index: 100;
+        transition: transform 0.3s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    nav.active {
+        transform: scale(1);
+        visibility: visible;
+        opacity: 1;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 1rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    header nav a:hover {
+        background: #007757;
+        color: #fff;
+        border: none;
+    }
+
+    header .logo{
+        margin-left: 0.1rem;
+    }
+
+    .meklet {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1628px) {
+    .meklet {
+        display: flex;
+        flex-direction: row;
+        scale: 90%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1620px) {
+
+    .vakancesKaste h1{
+        font-size: 2rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 1240px) {
+
+    .vakancesKaste h1{
+        font-size: 1.5rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 1124px) {
+
+    .vakancesKaste{
+        scale: 85%;
+    }
+
+    .vakancesKaste{
+        height: 120rem;
+    }
+
+    .vakancesKaste button{
+        scale: 85%;
+    }
+}
+
+
+@media (max-width: 990px) {
+
+    .vakancesKaste{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .vakancesKaste{
+        scale: 70% 70%;
+        position: relative;
+        resize: both;
+    }
+
+    .vakancesKaste{
+       height: 100rem;
+    }
+
+    .vakancesKaste h1{
+        scale: 100% 90%;
+    }
+
+    .vakancesKaste p{
+        scale: 100% 90%;
+    }
+}
+
+@media (max-width: 684px) {
+    .meklet{
+        scale: 70%;
+    }
+
+    .meklet i{
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .vakancesKaste{
+        scale: 65%;
+    }
+    
+    .vakancesKaste{
+        height: 95rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 628px) {
+
+    .vakancesKaste{
+        scale: 60%;
+    }
+
+    .vakancesKaste{
+        height: 90rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .vakancesKaste{
+        scale: 55%;
+    }
+
+    .vakancesKaste{
+        height: 80rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 554px) {
+    .meklet input[type=text] {
+        width: 240px;
+        height: 25px;
+        text-indent: 1rem;
+        border-radius: 25px;
+        border: 1px solid #000  ;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .vakancesKaste{
+        scale: 45%;
+    }
+
+    .vakancesKaste{
+        height: 65rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 483px) {
+    .meklet input[type=text] {
+        width: 180px;
+        height: 25px;
+        text-indent: 1rem;
+        border-radius: 25px;
+        border: 1px solid #000  ;
+    }
+}
+
+@media (max-width: 419px) {
+    .meklet input[type=text] {
+        width: 140px;
+        height: 25px;
+        text-indent: 1rem;
+        border-radius: 25px;
+        border: 1px solid #000  ;
+    }
+
+    header .logo{
+        margin-left: none;
+    }
+}
+
+@media (max-width: 436px) {
+
+    .vakancesKaste{
+        scale: 35%;
+    }
+
+    .vakancesKaste{
+        height: 50rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 385px) {
+    header .logo{
+        display: none;
+    }
+
+    .meklet input[type=text] {
+        width: 200px;
+        height: 25px;
+        text-indent: 1rem;
+        border-radius: 25px;
+        border: 1px solid #000  ;
+    }
+
+    .meklet{
+        position: relative;
+        right: 15%;
+    }
+}
+
+@media (max-width: 346px) {
+
+    .vakancesKaste{
+        scale: 30%;
+    }
+
+    .vakancesKaste{
+        height: 45rem;
+    }
+
+    .vakancesKaste h1{
+        font-size: 3rem;
+    }
+
+    .vakancesKaste p{
+        font-size: 0.8rem;
+    }
+}

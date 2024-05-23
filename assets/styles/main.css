@@ -21,16 +21,19 @@ body{
 
 /*______________________________________________________________________________HEADER_____________________________________________________________________________________________*/
 
-header {
-    background-color: #ffffff;
+header{
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 3rem;
-    display: grid;
-    grid-template-columns: 20% auto;
-    border-bottom: 4px solid green;
+    left: 0;
+    right: 0;
     z-index: 5;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 9%;
+    box-shadow: 10px 0 5px gray;
 }
 
 header img{
@@ -68,6 +71,21 @@ header nav a:hover {
 
 header nav h1{
     text-align: left;
+}
+
+#menu-bar {
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.3rem;
+    border-radius: 1rem;
+    color: #fff;
+    background: #007757;
+    display: none;
+}
+
+#menu-bar:hover{
+    color: #007757;
+    background: #eee;
 }
 
 /*________________________________________________________________________________SECTION: SAKUMLAPA___________________________________________________________________________________________*/
@@ -142,6 +160,11 @@ header nav h1{
     transition: bottom 0.5s ease-in-out;
 }
 
+.hover-button:hover{
+    background-color: #007757;
+    color: #fff;
+}
+
 .BildesContainer:hover .hover-button {
     bottom: 50%;
 }
@@ -176,9 +199,15 @@ header nav h1{
 
 /*________________________________________________________________________________SECTION: JAUNUMI___________________________________________________________________________________________*/
 
+#jaunumi{
+    margin: 0;
+    padding: 0;
+    transform-origin: top center;
+}
+
 #jaunumi h1{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-top: 5rem;
     font-size: 4rem;
     color: #007757;
@@ -216,11 +245,13 @@ header nav h1{
 }
 
 .carousel {
-    position: relative;
-    left: 15%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    width: 80rem;
+    border-radius: 1rem;
+    scale: 85%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 80rem;
     overflow: hidden;
     border: 2px solid #007757;
     background-color: #007757;
@@ -239,6 +270,7 @@ header nav h1{
 
 .carousel-image {
     border: 5px solid #c0c0c0;
+    border-radius: 1rem;
     z-index: 1;
     width: 100%;
     height: auto; 
@@ -249,7 +281,7 @@ header nav h1{
 }
 
 .carousel-image.hidden {
-    opacity: 0; /* Hide the image with opacity */
+    opacity: 0;
 }
 
 .carousel-text {
@@ -282,4 +314,624 @@ header nav h1{
 
 .arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*________________________________________________________________________________SECTION: VAKANCES___________________________________________________________________________________________*/
+
+#vakances{
+    padding: 0 9%;
+    transform-origin: top center;
+}
+
+#vakances h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#vakances h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#vakances .box-container {
+    border-radius: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+#vakances .box img {
+    width: 100%;
+    height: auto;
+}
+
+#vakances .box {
+    scale: 90%;
+    text-align: center;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 4rem 2rem;
+    background-color: #fff;
+    transform-origin: top center;
+}
+
+#vakances .box h3 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#vakances .box p {
+    color: #777;
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+
+#vakances .kreep button {
+    width: 24rem;
+    cursor: pointer;
+}
+
+#vakances button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+#vakances .kreep button:hover {
+    background-color: #007757;
+    color: #fff;
+    box-shadow: none;
+}
+
+/*Bounce*/
+@keyframes kreep {
+    0% {-webkit-transform: scale(1.1,.9);
+        transform: scale(1.1,.9);}
+   50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+   70% { -webkit-transform: scale(1);
+         transform: scale(1);}
+}
+
+div.kreep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: kreep 2s ease 2s infinite alternate;
+}
+
+#vakances button:hover {
+    background-color: #007757;
+    color: #fff;
+}
+/*________________________________________________________________________________SECTION: PAR MUMS___________________________________________________________________________________________*/
+
+#parmums{
+    margin-top: 2rem;
+    transform-origin: top center;
+}
+
+#parmums h1{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    font-size: 4rem;
+    color: #007757;
+    margin: 0;
+}
+
+#parmums .kontakti h1{
+    padding-top: 3rem;
+}
+
+#parmums h1 span{
+    color: #fff;
+    border-radius: 5px;
+    background: #007757;
+    padding: 0.5rem 1.5rem;
+}
+
+#parmums .informacija{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#parmums .informacija p{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    width: 50%;
+    text-align: center;
+    color: #007757;
+}
+
+#parmums img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+    border-top-left-radius: 23rem;
+    border-bottom-right-radius: 23rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#parmums .kontakti{
+    transform-origin: top center;
+}
+
+#parmums .kontakti .box-container{
+    scale: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+#parmums .kontakti .icon {
+    background: linear-gradient(-45deg, #99FF99, #3CB371, #25a885, #007757);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    padding: 2.5rem;
+    text-align: center;
+    border: 0.1rem solid rgba(0,0,0,0.1);;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#parmums .kontakti .icon i {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: #007757;
+    border-radius: 50%;
+    line-height: 6rem;
+}
+
+#parmums .kontakti .icon h3 {
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+#parmums .kontakti .icon p {
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+/*________________________________________________________________________________SECTION: RESPONSIVITĀTE___________________________________________________________________________________________*/
+
+
+@media (max-width: 1516px) {
+    @media (max-width: 1516px) {
+        #vakances .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+    
+        #vakances .box {
+            width: calc((100% - 2rem) / 2);
+            margin-bottom: 1rem;
+        }
+    
+       
+        #vakances .box:nth-child(3) {
+            width: calc((100% - 2rem) / 2);
+            height: 41rem;
+        }
+    }
+    
+}
+
+@media (max-width: 1518px) {
+    @media (max-width: 1516px) {
+        #parmums .kontakti .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+    
+        #parmums .kontakti .icon {
+            width: calc((100% - 2rem) / 2);
+            margin-bottom: 1rem;
+        }
+    
+       
+        #parmums .kontakti .icon:nth-child(3) {
+            width: calc((100% - 2rem) / 2);
+            height: 20rem;
+        }
+    }
+    
+}
+
+@media (max-width: 1295px){
+    .SakumlapasIevads #informacija{
+        display: none;
+    }
+}
+
+@media (max-width: 1305px){
+
+    nav a{
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 1252px){
+
+    nav a{
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+        text-align: center;
+    }
+
+    header .logo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1180px) {
+    #menu-bar {
+        display: block;
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    nav {
+        position: absolute;
+        top: 115%;
+        right: 2rem;
+        background: #fff;
+        box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+        border: 1px solid #000;
+        border-radius: 1rem;
+        width: 18rem;
+        transform: scale(0);
+        transform-origin: top right;
+        z-index: 100;
+        transition: transform 0.3s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    nav.active {
+        transform: scale(1);
+        visibility: visible;
+        opacity: 1;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 1rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    header nav a:hover {
+        background: #007757;
+        color: #fff;
+        border: none;
+    }
+
+    header .logo{
+        margin-left: 0.1rem;
+    }
+}
+
+@media (max-width: 1297px) {
+    .carousel{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1185px) {
+    #parmums img{
+        scale: 90%;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .carousel{
+        width: 100%;
+        scale: 80%;
+    }
+
+    .carousel-container{
+        width: 100%;
+        scale: 80%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1070px) {
+    #parmums img{
+        width: 100%;
+        scale: 80%;
+    }
+}
+
+@media (max-width: 1150px) {
+    #parmums .box-container .icon{
+        width: 100%;
+        height: 21rem;
+        margin-bottom: 0;
+    }
+
+    #parmums .box-container{
+        gap: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+
+    #parmums .kontakti .icon:nth-child(3) {
+        width: 100%;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 1010px) {
+    #vakances .box-container .box{
+        width: 100%;
+        height: 50rem;
+        margin-bottom: 0;
+    }
+
+    #vakances .box-container{
+        gap: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+}
+
+@media (max-width: 980px) {
+    #vakances h1{
+        scale: 80%;
+    }
+}
+
+@media (max-width: 860px) {
+    #jaunumi h1{
+        scale: 80%;
+    }
+}
+
+@media (max-width: 800px){
+
+    #parmums .kontakti{
+        scale: 80%;
+    }
+
+    #parmums{
+        height: 120rem;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .BildesContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .BildesContainer button{
+        scale: 90%;
+        left: 50%;
+    }
+
+    .SakumlapasIevads img{
+        scale: 90%;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .SakumlapasIevads{
+        background: #fff;
+    }
+}
+
+
+@media (max-width: 710px) {
+    #jaunumi h1, #vakances h1{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.1rem;
+    }
+
+    #vakances{
+        margin-top: 0.1rem;
+    }
+
+    #jaunumi h1 span, #vakances h1 span {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #vakances .box-container .box{
+        height: 40rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .kontakti h1{
+        scale: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .BildesContainer{
+        height: 30rem;
+    }
+
+    .BildesContainer button{
+        scale: 90%;
+        left: 47%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .kontakti h1{
+        scale: 80%;
+    }
+}
+
+@media (max-width: 534px){
+
+    #parmums{
+        height: 122rem;
+    }
+}
+
+@media (max-width: 530px){
+
+    #parmums h1{
+        scale: 80%;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.1rem;
+    }
+
+    #parmums h1 span{
+        margin-top: 0.5rem;
+    }
+
+    #parmums .informacija p{
+        scale: 90%;
+        width:70%;
+    }
+
+    #parmums{
+        height: 122rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #vakances .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 1rem;
+        margin-top: 0.1rem;
+    }
+
+    #vakances .box{
+        height: 45rem;
+    }
+
+    #vakances{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #vakances .kreep{
+        scale: 80%;
+        position: relative;
+        bottom: 10%;
+    }
+}
+
+@media (max-width: 450px){
+
+    footer{
+        margin-top: none;
+    }
+
+}
+
+
+@media (max-width: 440px) {
+
+    #vakances h1{
+        scale: 65%;
+    }
+}
+
+@media (max-width: 426px){
+
+    #vakances .box{
+        scale: 80%;
+        height: 50rem;
+    }
+
+    #vakances .kreep{
+        position: relative;
+        bottom: 6rem;
+    }
+}
+
+@media (max-width: 370px){
+
+    #vakances .box{
+        scale: 70%;
+    }
+
+    #vakances .kreep{
+        position: relative;
+        bottom: 10rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #jaunumi h1{
+        scale: 65%;
+    }
+}
+
+@media (max-width: 355px){
+
+    #parmums{
+        height: 130rem;
+    }
 }

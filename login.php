@@ -23,7 +23,7 @@
            <form method="post">
             <div><input type="text" placeholder="Lietotajvards" name='lietotajs'></div>
             <div><input type="text" placeholder="Parole" name='parole'></div>
-            <button type="submit" name="Autorizācija">IELOGOTIES</button>
+            <button type="submit" name="Autorizācija"><a href="admin/">IELOGOTIES</a></button>
            </form>
         </div>
         </div>

@@ -16,7 +16,7 @@
                 <th>Adrese</th>
                 <th>izglitiba</th>
                 <th>CV</th>
-                <th>y/n</th>
+                <th>Apstiprināt</th>
 
         
             </tr>
@@ -28,7 +28,7 @@
                 <td>Liepāja ventspils iela 5</td>
                 <td>7</td>
                 <td><a href="">fails</a></td>
-                <td><button class='btn'>Y</button> | <button class='btn'>X</button></td>
+                <td><button class='btn'><i class="fa-solid fa-check"></i></button> | <button class='btn'><i class="fa-solid fa-xmark"></i></button></td>
             </tr>
             <tr>
                 <td>1</td>
@@ -38,7 +38,7 @@
                 <td>Liepāja ventspils iela 5</td>
                 <td>7</td>
                 <td><a href="">fails</a></td>
-                <td><button class='btn'>Y</button> | <button class='btn'>X</button></td>
+                <td><button class='btn'><i class="fa-solid fa-check"></i></button> | <button class='btn'><i class="fa-solid fa-xmark"></i></button></td>
                 <tr>
                 <td>1</td>
                 <td>Viljams Trukšāns</td>
@@ -47,7 +47,7 @@
                 <td>Liepāja ventspils iela 5</td>
                 <td>7</td>
                 <td><a href="">fails</a></td>
-                <td><button class='btn'>Y</button> | <button class='btn'>X</button></td>
+                <td><button class='btn'><i class="fa-solid fa-check"></i></button> | <button class='btn'><i class="fa-solid fa-xmark"></i></button></td>
             </tr>
             <tr>
                 <td>1</td>
@@ -57,7 +57,7 @@
                 <td>Liepāja ventspils iela 5</td>
                 <td>7</td>
                 <td><a href="">fails</a></td>
-                <td><button class='btn'>Y</button> | <button class='btn'>X</button></td>
+                <td><button class='btn'><i class="fa-solid fa-check"></i></button> | <button class='btn'><i class="fa-solid fa-xmark"></i></button></td>
             </tr>
             <tr>
                 <td>1</td>
@@ -67,11 +67,9 @@
                 <td>Liepāja ventspils iela 5</td>
                 <td>7</td>
                 <td><a href="">fails</a></td>
-                <td><button class='btn'>Y</button> | <button class='btn'>X</button></td>
+                <td><button class='btn'><i class="fa-solid fa-check"></i></button> | <button class='btn'><i class="fa-solid fa-xmark"></i></button></td>
             </tr>
             </tr>
         </Table>
    </section>
     
-</body>
-</html>

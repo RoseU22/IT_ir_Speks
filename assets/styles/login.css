@@ -31,7 +31,7 @@ footer {
 
 
 .bg {
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/background2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -94,6 +94,9 @@ footer {
     outline: none;
     border: none;
 }
+.cont1 a {
+    color: #fff;
+}
 .cont1 button:hover {
     cursor: pointer;
 }
@@ -128,4 +131,22 @@ footer {
     font-size: 1.5rem;
  
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .cont2 {
+        display: none;
+    }
+    .login-container {
+        grid-template-columns: 100%;
+        scale: 80%;
+    }
+}
+@media (max-width: 500px){
+    .cont1 input {
+        width: 80%;
+    }
+    .cont1 img {
+        scale: 70%;
+    }
 }
